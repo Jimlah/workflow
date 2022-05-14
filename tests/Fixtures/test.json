@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "jobs": [
+    {
+      "name": "test",
+      "run": {
+        "target": "ClassName",
+        "method": "run",
+        "args": [
+          "test",
+          10,
+          true
+        ]
+      }
+    },
+    {
+      "name": "test",
+      "run": {
+        "target": "ClassName",
+        "method": "methodName",
+        "args": [
+          "test"
+        ]
+      }
+    }
+  ]
+}
