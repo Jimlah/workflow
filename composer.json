@@ -1,0 +1,30 @@
+{
+    "name": "abdullahi/workflow",
+    "description": "A simple php workflow",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abdullahi\\Workflow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdullahi Jimoh",
+            "email": "abdullahij951@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "pestphp/pest": "^1.21"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
