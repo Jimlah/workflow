@@ -3,9 +3,8 @@
 namespace Loaders;
 
 use Abdullahi\Workflow\Loaders\JsonLoader;
-use PHPUnit\Framework\TestCase;
 
-class JsonLoaderTest extends TestCase
-{
-
-}
+it("can read a json file and return an array", function () {
+    $loader = JsonLoader::load(__DIR__ . '/../../tests/Fixtures/test.json');
+    expect($loader)->toBeArray();
+});
