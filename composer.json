@@ -17,6 +17,10 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.0",
+        "symfony/yaml": "^6.0"
+    },
+    "require-dev": {
+        "spatie/ray": "^1.34",
         "pestphp/pest": "^1.21",
         "phpstan/phpstan": "^1.6"
     },
