@@ -12,8 +12,8 @@ This package is aimed to be a realistic PHP workflow package that works in a sim
 
 $runner = WorkflowRunner::build(
     workflow: [
-        YamlLoader::load(__DIR__ . '/test.yaml'),
-        JsonLoader::load(__DIR__ . '/test.json'),
+        WorkflowBuilder::make(YamlLoader::load(__DIR__ . '/test.yaml')),
+        WorkflowBuilder::make(JsonLoader::load(__DIR__ . '/test.json')),
     ]);
 
 $runner->run();

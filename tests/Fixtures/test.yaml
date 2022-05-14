@@ -3,16 +3,16 @@ name: "test"
 jobs:
   test:
     run:
-      target: "ClassName"
-      method: "run"
+      target: 'Abdullahi\Workflow\Stubs\Test'
+      method: 'run'
       args:
-          - "test"
+          - 'test'
           - 10
           - true
 
   another:
     run:
-      target: "ClassName"
-      method: "another"
+      target: 'Abdullahi\Workflow\Stubs\Test'
+      method: 'another'
       args:
         - "test"

@@ -1,10 +1,9 @@
 {
   "name": "test",
-  "jobs": [
-    {
-      "name": "test",
+  "jobs": {
+    "test": {
       "run": {
-        "target": "ClassName",
+        "target": "Abdullahi\\Workflow\\Stubs\\Test",
         "method": "run",
         "args": [
           "test",
@@ -12,16 +11,15 @@
           true
         ]
       }
-    },
-    {
-      "name": "test",
-      "run": {
-        "target": "ClassName",
-        "method": "methodName",
-        "args": [
-          "test"
-        ]
-      }
     }
-  ]
+  },
+  "another": {
+    "run": {
+      "target": "Abdullahi\\Workflow\\Stubs\\Test",
+      "method": "another",
+      "args": [
+        "test"
+      ]
+    }
+  }
 }
