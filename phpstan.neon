@@ -1,0 +1,15 @@
+includes:
+
+parameters:
+
+    paths:
+        - src
+
+    level: 0
+
+    ignoreErrors:
+
+    excludePaths:
+
+    checkMiss
+
